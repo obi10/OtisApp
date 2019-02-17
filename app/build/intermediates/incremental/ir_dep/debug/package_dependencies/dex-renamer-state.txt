@@ -1,0 +1,4 @@
+#Fri Feb 15 17:13:23 EST 2019
+base.0=/home/junicode/AndroidProjects/OtisApp/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

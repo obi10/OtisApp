@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">OtisApp</string>
+    <string name="logo_desc">Otis company logo</string>
+
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+    <string name="text_button_login">Login</string>
+    <string name="text_textview_forgot_password">Olvidastes tu contraseña?</string>
+    <string name="text_textview_dont_have_account">No tienes una cuenta?</string>
+    <string name="text_textview_request_one">Solicita una</string>
+
+
+    <string name="text_button_vigentes">Vigentes</string>
+    <string name="text_button_pendientes">Pendientes</string>
+    <string name="text_button_emergencia">Emergencia</string>
+
+    <string name="text_textview_bienvenido">Bienvenido Ygnacio!</string>
+    <string name="text_textview_trabajos">TRABAJOS</string>
+
+
+    <string name="text_textview_trabajos_vigentes">TRABAJOS - VIGENTES</string>
+    <string name="text_textview_correctivo">CORRECTIVO</string>
+    <string name="text_textview_preventivo">PREVENTIVO</string>
+    <string name="text_button_trabajos_vigentes_e1">CAMBIAR PASAMANOS - ESCALERA ELECTRICA</string>
+    <string name="text_button_trabajos_vigentes_e2">CAMBIAR BOTONES - ASCENSOR</string>
+    <string name="text_button_trabajos_vigentes_e3">MANTENIMIENTO DE MOTOR - ASCENSOR</string>
+
+    <string name="text_textview_trabajos_vigentes_e1">CAMBIAR PASAMANOS - ESCALERA ELECTRICA</string>
+    <string name="text_textview_info">INFORMACION</string>
+    <string name="text_textview_num_maquina">NUM MAQUINA:</string>
+    <string name="text_textview_tipo_maquina">TIPO DE MAQUINA:</string>
+    <string name="text_textview_edificio">EDIFICIO:</string>
+    <string name="text_textview_direccion">DIRECCION:</string>
+    <string name="text_textview_contacto">CONTACTO:</string>
+    <string name="text_textview_telefono">TELEFONO:</string>
+    <string name="text_textview_fecha_inicio">FECHA DE INICIO:</string>
+    <string name="text_textview_fecha_fin">FECHA LIMITE DE TERMINO:</string>
+    <string name="text_textview_descripcion">DESCRIPCION:</string>
+    <string name="text_button_herramienta">herramienta</string>
+    <string name="text_button_material">material</string>
+    <string name="text_button_concluir">concluir</string>
+
+    <string name="text_textview_concluir">CONCLUIR TRABAJO</string>
+    <string name="text_textview_formulario">FORMULARIO</string>
+    <string name="text_textview_estado_actual">ESTADO ACTUAL:</string>
+    <string name="text_textview_fecha_termino">FECHA DE TERMINO:</string>
+    <string name="text_textview_observacion">OBSERVACION:</string>
+    <string name="hint_comment">comentario...</string>
+    <string name="text_button_new_post">post</string>
+</resources>

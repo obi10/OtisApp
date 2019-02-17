@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.junicode.otisapp.WorkActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/actionbar_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="@string/text_textview_trabajos_vigentes" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="@dimen/margin_linearlayout_work"
+            android:paddingBottom="@dimen/padding_vertical_linearlayout_work"
+            android:background="@drawable/button_shape">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:layout_marginVertical="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="@string/text_textview_correctivo" />
+
+            <Button
+                android:layout_width="@dimen/widht_RaisedButtonLight"
+                android:layout_height="@dimen/height_RaisedButtonLight"
+                android:paddingHorizontal="10dp"
+                android:layout_gravity="center"
+                android:gravity="center|start"
+                android:text="@string/text_button_trabajos_vigentes_e1"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                android:theme="@style/RaisedButtonLight"
+                android:background="@drawable/button_shape"
+                android:onClick="goInfoWork" />
+            <Button
+                android:layout_width="@dimen/widht_RaisedButtonLight"
+                android:layout_height="@dimen/height_RaisedButtonLight"
+                android:layout_marginTop="8dp"
+                android:paddingHorizontal="10dp"
+                android:layout_gravity="center"
+                android:gravity="center|start"
+                android:text="@string/text_button_trabajos_vigentes_e2"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                android:theme="@style/RaisedButtonLight"
+                android:background="@drawable/button_shape" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margin_linearlayout_work"
+            android:paddingBottom="@dimen/padding_vertical_linearlayout_work"
+            android:background="@drawable/button_shape">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:layout_marginVertical="10dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:text="@string/text_textview_preventivo" />
+
+            <Button
+                android:layout_width="@dimen/widht_RaisedButtonLight"
+                android:layout_height="@dimen/height_RaisedButtonLight"
+                android:paddingHorizontal="10dp"
+                android:layout_gravity="center"
+                android:gravity="center|start"
+                android:text="@string/text_button_trabajos_vigentes_e3"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                android:theme="@style/RaisedButtonLight"
+                android:background="@drawable/button_shape" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

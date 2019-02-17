@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edittext_size_login">16sp</dimen>
+
+    <dimen name="padding_linearlayout_login">32dp</dimen>
+    <dimen name="margin_horizontal_linearlayout_login">48dp</dimen>
+    <dimen name="margin_top_imageview_login">70dp</dimen>
+    <dimen name="margin_top_linearlayout_login">50dp</dimen>
+    <dimen name="margin_horizontal_button_login">50dp</dimen>
+
+    <dimen name="padding_vertical_linearlayout_home">10dp</dimen>
+
+    <dimen name="widht_RaisedButtonLight">330dp</dimen>
+    <dimen name="height_RaisedButtonLight">40dp</dimen>
+
+    <dimen name="margin_linearlayout_work">20dp</dimen>
+    <dimen name="padding_vertical_linearlayout_work">20dp</dimen>
+
+    <dimen name="padding_bottom_textview_info">120dp</dimen>
+
+    <dimen name="widht_RaisedButtonAccent">130dp</dimen>
+    <dimen name="height_RaisedButtonAccent">40dp</dimen>
+
+    <dimen name="height_edittext_observacion">180dp</dimen>
+</resources>

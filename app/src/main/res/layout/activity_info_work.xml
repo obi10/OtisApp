@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoWorkActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/actionbar_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="@string/text_textview_trabajos_vigentes_e1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="@dimen/margin_linearlayout_work"
+                    android:paddingBottom="@dimen/padding_vertical_linearlayout_work"
+                    android:background="@drawable/button_shape">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:layout_marginVertical="10dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:text="@string/text_textview_info" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_num_maquina" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_tipo_maquina" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingStart="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_edificio" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_direccion" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingStart="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_contacto" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_telefono" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingStart="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_fecha_inicio" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_fecha_fin" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:paddingStart="20dp"
+                        android:paddingBottom="@dimen/padding_bottom_textview_info"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp"
+                        android:text="@string/text_textview_descripcion" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="@dimen/widht_RaisedButtonAccent"
+                    android:layout_height="@dimen/height_RaisedButtonAccent"
+                    android:layout_marginEnd="20dp"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/text_button_herramienta"
+                    android:theme="@style/RaisedButtonAccent" />
+
+                <Button
+                    android:layout_width="@dimen/widht_RaisedButtonAccent"
+                    android:layout_height="@dimen/height_RaisedButtonAccent"
+                    android:paddingHorizontal="10dp"
+                    android:text="@string/text_button_material"
+                    android:theme="@style/RaisedButtonAccent" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="@dimen/widht_RaisedButtonAccent"
+                android:layout_height="@dimen/height_RaisedButtonAccent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:paddingHorizontal="10dp"
+                android:text="@string/text_button_concluir"
+                android:theme="@style/RaisedButtonDark"
+                android:onClick="goCompleteWork"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

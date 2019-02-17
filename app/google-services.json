@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "780030503894",
+    "firebase_url": "https://otisapp-faf93.firebaseio.com",
+    "project_id": "otisapp-faf93",
+    "storage_bucket": "otisapp-faf93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780030503894:android:d1d14065acd0bf9b",
+        "android_client_info": {
+          "package_name": "com.junicode.otisapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780030503894-tqc857cg04d4rcj6u6mk9ortekt54mgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.junicode.otisapp",
+            "certificate_hash": "274caca91ad6b932ba6a911c894e6715a119a544"
+          }
+        },
+        {
+          "client_id": "780030503894-9klk5sebvftiuksr5igms4sjj54brueq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATWMKI9TgunQ8JxIeDOJjCz801XKN2SQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780030503894-9klk5sebvftiuksr5igms4sjj54brueq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
