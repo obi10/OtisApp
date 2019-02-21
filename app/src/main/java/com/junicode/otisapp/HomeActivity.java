@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.junicode.otisapp.work.view.WorkListActivity;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -34,7 +35,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void goWork(View view) {
-        Intent intent = new Intent(this, WorkActivity.class);
+        Intent intent = new Intent(this, WorkListActivity.class);
         startActivity(intent);
     }
 }

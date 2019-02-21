@@ -4,7 +4,7 @@
             "outputFile": "/home/junicode/AndroidProjects/OtisApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/junicode/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/9df55646bf4d8f37fae8ba40810ff26b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/junicode/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6147bc8b206ce0ba34b4685987497a6f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/junicode/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/85821e51182e6c8c88b4a34feb688e2c/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/junicode/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e6f6667c7c5a420e589a008fbdc0ad57/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

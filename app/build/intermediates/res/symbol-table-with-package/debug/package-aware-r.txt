@@ -1127,6 +1127,9 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnConcluir
+id btnHerramienta
+id btnMaterial
 id btnNewPost
 id buttonPanel
 id cancel_action
@@ -1172,6 +1175,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id fragment_container
 id ghost_view
 id gone
 id group_divider
@@ -1197,6 +1201,7 @@ id line1
 id line3
 id listMode
 id list_item
+id list_item_work_title_text_view
 id login
 id masked
 id media_actions
@@ -1281,6 +1286,15 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textViewContacto
+id textViewDescripcion
+id textViewDireccion
+id textViewEdificio
+id textViewFechaInicio
+id textViewFechaLimite
+id textViewNumeroMaquina
+id textViewTelefono
+id textViewTipoMaquina
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1307,6 +1321,8 @@ id view_offset_helper
 id visible
 id wide
 id withText
+id work_correctivo_recycler_view
+id work_preventivo_recycler_view
 id wrap
 id wrap_content
 integer abc_config_activityDefaultDur
@@ -1359,11 +1375,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout actionbar_toolbar
 layout activity_complete_work
+layout activity_fragment
 layout activity_home
-layout activity_info_work
 layout activity_login
 layout activity_new_post
-layout activity_work
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1378,6 +1393,9 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_info_work
+layout fragment_work_list
+layout list_item_work
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

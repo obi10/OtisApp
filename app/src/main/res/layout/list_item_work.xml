@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item_work_title_text_view"
+    android:layout_width="@dimen/widht_RaisedButtonLight"
+    android:layout_height="@dimen/height_RaisedButtonLight"
+    android:layout_marginVertical="5dp"
+    android:paddingHorizontal="10dp"
+    android:layout_gravity="center"
+    android:gravity="center|start"
+    android:theme="@style/RaisedButtonLight"
+    android:background="@drawable/button_shape"
+    android:drawableEnd="@drawable/ic_navigate_next"
+    tools:text="Work title">
+
+</TextView>

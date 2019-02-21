@@ -60,19 +60,13 @@
                 android:value=".login.view.LoginActivity" />
         </activity>
         <activity
-            android:name="com.junicode.otisapp.WorkActivity"
+            android:name="com.junicode.otisapp.work.view.WorkListActivity"
             android:parentActivityName="com.junicode.otisapp.HomeActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HomeActivity" />
         </activity>
-        <activity
-            android:name="com.junicode.otisapp.InfoWorkActivity"
-            android:parentActivityName="com.junicode.otisapp.WorkActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".WorkActivity" />
-        </activity>
+        <activity android:name="com.junicode.otisapp.InfoWorkActivity" />
         <activity
             android:name="com.junicode.otisapp.CompleteWorkActivity"
             android:parentActivityName="com.junicode.otisapp.InfoWorkActivity" >
@@ -99,6 +93,9 @@
             android:exported="false" >
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"

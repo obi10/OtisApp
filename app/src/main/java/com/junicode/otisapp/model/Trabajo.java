@@ -6,6 +6,7 @@ public class Trabajo {
 
     private String idTrabajo;
     private String nombre;
+    private char tipoTrabajo; //correctivo o preventivo
     private AreaTrabajo objAreaTrabajo;
     private Maquina objMaquina;
     private Tecnico objTecnico;
@@ -16,9 +17,14 @@ public class Trabajo {
     private String descripcion;
     private String observacion;
 
-    public Trabajo(String idTrabajo, String nombre, AreaTrabajo objAreaTrabajo, Maquina objMaquina, Tecnico objTecnico, Date fechaInicio, Date fechaLimite, Date fechaTermino, char estado, String descripcion, String observacion) {
+    public Trabajo(String idTrabajo) {
+        this.idTrabajo = idTrabajo;
+    }
+
+    public Trabajo(String idTrabajo, String nombre, char tipoTrabajo, AreaTrabajo objAreaTrabajo, Maquina objMaquina, Tecnico objTecnico, Date fechaInicio, Date fechaLimite, Date fechaTermino, char estado, String descripcion, String observacion) {
         this.idTrabajo = idTrabajo;
         this.nombre = nombre;
+        this.tipoTrabajo = tipoTrabajo;
         this.objAreaTrabajo = objAreaTrabajo;
         this.objMaquina = objMaquina;
         this.objTecnico = objTecnico;
@@ -44,6 +50,14 @@ public class Trabajo {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public char getTipoTrabajo() {
+        return tipoTrabajo;
+    }
+
+    public void setTipoTrabajo(char tipoTrabajo) {
+        this.tipoTrabajo = tipoTrabajo;
     }
 
     public AreaTrabajo getObjAreaTrabajo() {

@@ -1,5 +1,6 @@
 package com.junicode.otisapp.model;
 
+
 public class AreaTrabajo {
     private String idAreaTrabajo;
     private String nombre;
