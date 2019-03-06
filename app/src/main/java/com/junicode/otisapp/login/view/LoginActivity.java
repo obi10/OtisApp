@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.junicode.otisapp.HomeActivity;
+import com.junicode.otisapp.home.activity.HomeActivity;
 import com.junicode.otisapp.R;
 import com.junicode.otisapp.login.presenter.LoginPresenter;
 import com.junicode.otisapp.login.presenter.LoginPresenterImpl;

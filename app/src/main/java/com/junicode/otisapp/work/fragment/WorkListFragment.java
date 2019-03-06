@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.junicode.otisapp.InfoWorkActivity;
+import com.junicode.otisapp.work.activity.InfoWorkActivity;
 import com.junicode.otisapp.R;
 import com.junicode.otisapp.model.Trabajo;
 import com.junicode.otisapp.model.TrabajoLab;
@@ -21,10 +21,22 @@ import java.util.List;
 
 public class WorkListFragment extends Fragment {
 
+    private static final String ARG_TRABAJO_LIST = "trabajo_list";
+
     private RecyclerView mWorkCorrectivoRecyclerView;
     private RecyclerView mWorkPreventivoRecyclerView;
     private TrabajoAdapter mAdapterCorrectivo;
     private TrabajoAdapter mAdapterPreventivo;
+
+    public static WorkListFragment newInstance(TrabajoLab trabajoLab) {
+        Bundle args = new Bundle();
+        args.putSerializable(ARG_TRABAJO_LIST, trabajoLab);
+
+        WorkListFragment fragment = new WorkListFragment();
+        fragment.setArguments(args);
+
+        return fragment;
+    }
 
     @Nullable
     @Override
@@ -43,16 +55,28 @@ public class WorkListFragment extends Fragment {
         return v;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateUI();
+    }
+
     private void updateUI() {
         TrabajoLab trabajoLab = TrabajoLab.get(getActivity());
         List<Trabajo> listaTrabajosCorrectivos = trabajoLab.getTrabajosXTipo('c');
         List<Trabajo> listaTrabajosPreventivos = trabajoLab.getTrabajosXTipo('p');
 
-        mAdapterCorrectivo = new TrabajoAdapter(listaTrabajosCorrectivos);
-        mWorkCorrectivoRecyclerView.setAdapter(mAdapterCorrectivo);
+        if (mAdapterCorrectivo == null && mAdapterPreventivo == null) { //the first called of onCreateView
+            mAdapterCorrectivo = new TrabajoAdapter(listaTrabajosCorrectivos);
+            mWorkCorrectivoRecyclerView.setAdapter(mAdapterCorrectivo);
 
-        mAdapterPreventivo = new TrabajoAdapter(listaTrabajosPreventivos);
-        mWorkPreventivoRecyclerView.setAdapter(mAdapterPreventivo);
+            mAdapterPreventivo = new TrabajoAdapter(listaTrabajosPreventivos);
+            mWorkPreventivoRecyclerView.setAdapter(mAdapterPreventivo);
+        }
+        else { //when the activity was stopped or paused
+            //mAdapterCorrectivo.notifyItemChanged(-get the position of the last item clicked-);
+            //mAdapterPreventivo.notifyDataSetChanged();
+        }
     }
 
     private class TrabajoHolder extends RecyclerView.ViewHolder implements View.OnClickListener {

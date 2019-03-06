@@ -5,21 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".InfoWorkActivity">
-
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/actionbar_toolbar"/>
+    tools:context=".work.activity.InfoWorkActivity">
 
     <TextView
+        android:id="@+id/textViewWorkTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:paddingStart="20dp"
-        android:textColor="@color/colorAccent"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        android:text="@string/text_textview_trabajos_vigentes_e1" />
+        android:paddingEnd="20dp"
+        android:theme="@style/TextViewTitle" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,10 +23,11 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="35dp"
             android:orientation="vertical">
 
-            <ScrollView
+            <android.support.v4.widget.NestedScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -38,206 +35,169 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginHorizontal="@dimen/margin_linearlayout_work"
-                    android:paddingBottom="@dimen/padding_vertical_linearlayout_work"
+                    android:layout_marginStart="@dimen/margin_linearlayout_work"
+                    android:layout_marginEnd="@dimen/margin_linearlayout_work"
+                    android:padding="20dp"
                     android:background="@drawable/button_shape">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingStart="20dp"
-                        android:layout_marginVertical="10dp"
-                        android:textColor="@color/colorAccent"
-                        android:textSize="14dp"
-                        android:textStyle="bold"
+                        android:theme="@style/TextViewSubtitle"
                         android:text="@string/text_textview_info" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_num_maquina" />
                         <TextView
                             android:id="@+id/textViewNumeroMaquina"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack"
+                            android:text="@string/text_textview_trabajos_vigentes_e1"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_tipo_maquina" />
                         <TextView
                             android:id="@+id/textViewTipoMaquina"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_edificio" />
                         <TextView
                             android:id="@+id/textViewEdificio"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_direccion" />
                         <TextView
                             android:id="@+id/textViewDireccion"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_contacto" />
                         <TextView
                             android:id="@+id/textViewContacto"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_telefono" />
                         <TextView
                             android:id="@+id/textViewTelefono"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_fecha_inicio" />
 
                         <TextView
                             android:id="@+id/textViewFechaInicio"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_fecha_fin" />
                         <TextView
                             android:id="@+id/textViewFechaLimite"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
-                        android:orientation="horizontal">
+                        android:orientation="vertical">
                         <TextView
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:paddingStart="20dp"
-                            android:paddingBottom="@dimen/padding_bottom_textview_info"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp"
+                            android:theme="@style/TextViewNormalBlue"
                             android:text="@string/text_textview_descripcion" />
                         <TextView
                             android:id="@+id/textViewDescripcion"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:paddingStart="10dp"
-                            android:textColor="@color/colorAccent"
-                            android:textSize="14dp" />
+                            android:theme="@style/TextViewNormalBlack"
+                            android:text="@string/text_textview_trabajos_vigentes_e1"/>
                     </LinearLayout>
 
                 </LinearLayout>
 
-            </ScrollView>
+            </android.support.v4.widget.NestedScrollView>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="35dp"
                 android:orientation="horizontal">
 
                 <Button
@@ -245,7 +205,8 @@
                     android:layout_width="@dimen/widht_RaisedButtonAccent"
                     android:layout_height="@dimen/height_RaisedButtonAccent"
                     android:layout_marginEnd="20dp"
-                    android:paddingHorizontal="10dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
                     android:text="@string/text_button_herramienta"
                     android:theme="@style/RaisedButtonAccent" />
 
@@ -253,7 +214,8 @@
                     android:id="@+id/btnMaterial"
                     android:layout_width="@dimen/widht_RaisedButtonAccent"
                     android:layout_height="@dimen/height_RaisedButtonAccent"
-                    android:paddingHorizontal="10dp"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
                     android:text="@string/text_button_material"
                     android:theme="@style/RaisedButtonAccent" />
 
@@ -264,8 +226,9 @@
                 android:layout_width="@dimen/widht_RaisedButtonAccent"
                 android:layout_height="@dimen/height_RaisedButtonAccent"
                 android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:paddingHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
                 android:text="@string/text_button_concluir"
                 android:theme="@style/RaisedButtonDark" />
 

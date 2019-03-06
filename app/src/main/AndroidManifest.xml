@@ -8,7 +8,7 @@
     <uses-feature
         android:name="android.hardware.camera2"
         android:required="false" />
-    
+
     <application
         android:name=".OtisApplication"
         android:allowBackup="true"
@@ -17,19 +17,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        
+        <activity android:name=".work.activity.RequestActivity"></activity>
+
         <provider
-            android:authorities="com.junicode.otisapp"
             android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.junicode.otisapp"
             android:exported="false"
             android:grantUriPermissions="true">
-            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_path"></meta-data>
-
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
         </provider>
-        
-        <activity android:name=".post.view.NewPostActivity"></activity>
-        <activity android:name=".login.view.LoginActivity">
+
+        <activity android:name=".work.activity.NewPostActivity" />
+        <activity android:name=".login.view.LoginActivity"></activity>
+        <activity android:name=".home.activity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,26 +39,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeActivity"
-            android:parentActivityName=".login.view.LoginActivity">
+            android:name=".work.activity.WorkListActivity"
+            android:parentActivityName=".home.activity.HomeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".login.view.LoginActivity" />
+                android:value=".home.activity.HomeActivity" />
         </activity>
         <activity
-            android:name=".work.view.WorkListActivity"
-            android:parentActivityName=".HomeActivity">
+            android:name=".work.activity.InfoWorkActivity"
+            android:parentActivityName=".work.activity.WorkListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".HomeActivity" />
+                android:value=".work.activity.WorkListActivity" />
         </activity>
-        <activity android:name=".InfoWorkActivity"></activity>
         <activity
-            android:name=".CompleteWorkActivity"
-            android:parentActivityName=".InfoWorkActivity">
+            android:name=".work.activity.CompleteWorkActivity"
+            android:parentActivityName=".work.activity.InfoWorkActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".InfoWorkActivity" />
+                android:value=".work.activity.InfoWorkActivity" />
         </activity>
     </application>
 

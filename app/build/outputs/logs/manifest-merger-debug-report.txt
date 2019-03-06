@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
-INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
-INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
-INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
 MERGED from [com.android.support:design:28.0.0] /home/junicode/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6147bc8b206ce0ba34b4685987497a6f/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/junicode/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e6f6667c7c5a420e589a008fbdc0ad57/AndroidManifest.xml:17:1-22:12
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/junicode/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/a926e0a61941e1349e68c5e649e2db66/AndroidManifest.xml:2:1-14:12
@@ -62,20 +62,20 @@ MERGED from [android.arch.core:runtime:1.1.1] /home/junicode/.gradle/caches/tran
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/junicode/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/04171fd02db786fbf204b8de56a1e8b2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/junicode/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/0ae37342d82bd286eca6950d75f5b34a/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.16.1] /home/junicode/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/c6318997eedc91eccb4c38ebe3285fa2/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
-INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
-INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
 		INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-63:12
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:1-64:12
 		INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -106,7 +106,7 @@ ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.x
 	android:name
 		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:9:9-48
 application
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:12:5-61:19
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:12:5-62:19
 MERGED from [com.android.support:design:28.0.0] /home/junicode/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6147bc8b206ce0ba34b4685987497a6f/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /home/junicode/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/6147bc8b206ce0ba34b4685987497a6f/AndroidManifest.xml:22:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/junicode/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/a926e0a61941e1349e68c5e649e2db66/AndroidManifest.xml:7:5-12:19
@@ -169,68 +169,72 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/junicode/.gra
 		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:19:9-40
 	android:name
 		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.junicode.otisapp.work.activity.RequestActivity
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:20:9-76
+	android:name
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:20:19-64
 provider#android.support.v4.content.FileProvider
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:21:9-29:20
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:22:9-30:20
 	android:grantUriPermissions
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:25:13-47
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:26:13-47
 	android:authorities
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:22:13-55
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:24:13-55
 	android:exported
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:24:13-37
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:25:13-37
 	android:name
 		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:23:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:26:13-27:63
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:27:13-29:53
 	android:resource
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:27:17-50
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:29:17-50
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:26:24-74
-activity#com.junicode.otisapp.post.view.NewPostActivity
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:31:9-72
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:28:17-67
+activity#com.junicode.otisapp.work.activity.NewPostActivity
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:32:9-67
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:31:19-60
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:32:19-64
 activity#com.junicode.otisapp.login.view.LoginActivity
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:32:9-38:20
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:32:19-59
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:33:19-59
+activity#com.junicode.otisapp.home.activity.HomeActivity
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:34:19-61
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:33:13-37:29
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:34:17-69
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:34:25-66
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:36:17-77
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:36:27-74
-activity#com.junicode.otisapp.HomeActivity
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:39:9-45:20
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:38:27-74
+activity#com.junicode.otisapp.work.activity.WorkListActivity
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:41:9-47:20
 	android:parentActivityName
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:41:13-67
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:43:13-69
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:40:13-41
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:42:13-59
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:42:13-44:61
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:44:13-46:63
 	android:value
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:44:17-58
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:46:17-60
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:43:17-63
-activity#com.junicode.otisapp.work.view.WorkListActivity
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:46:9-52:20
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:45:17-63
+activity#com.junicode.otisapp.work.activity.InfoWorkActivity
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:48:9-54:20
 	android:parentActivityName
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:48:13-55
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:50:13-73
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:47:13-55
-activity#com.junicode.otisapp.InfoWorkActivity
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:53:9-63
-	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:53:19-51
-activity#com.junicode.otisapp.CompleteWorkActivity
-ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:54:9-60:20
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:49:13-59
+activity#com.junicode.otisapp.work.activity.CompleteWorkActivity
+ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:55:9-61:20
 	android:parentActivityName
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:56:13-59
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:57:13-73
 	android:name
-		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:55:13-49
+		ADDED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml:56:13-63
 uses-sdk
 INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/junicode/AndroidProjects/OtisApp/app/src/main/AndroidManifest.xml

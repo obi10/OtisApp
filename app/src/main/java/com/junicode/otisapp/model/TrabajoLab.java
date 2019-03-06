@@ -2,10 +2,11 @@ package com.junicode.otisapp.model;
 
 import android.content.Context;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TrabajoLab {
+public class TrabajoLab implements Serializable {
     private static TrabajoLab sTrabajoLab;
     private List<Trabajo> listaTrabajos;
 

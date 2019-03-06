@@ -13,7 +13,7 @@ public class Trabajo {
     private Date fechaInicio;
     private Date fechaLimite;
     private Date fechaTermino;
-    private char estado;
+    private char estado; //vigente, pendiente, emergencia o concluido
     private String descripcion;
     private String observacion;
 

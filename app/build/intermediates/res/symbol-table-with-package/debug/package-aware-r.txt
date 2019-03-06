@@ -612,6 +612,7 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color colorAccent
+color colorAccentDark
 color colorPrimary
 color colorPrimaryDark
 color common_google_signin_btn_text_dark
@@ -848,7 +849,6 @@ dimen fastscroll_margin
 dimen fastscroll_minimum_range
 dimen height_RaisedButtonAccent
 dimen height_RaisedButtonLight
-dimen height_edittext_observacion
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -859,9 +859,11 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen margin_horizontal_button_home
 dimen margin_horizontal_button_login
 dimen margin_horizontal_linearlayout_login
 dimen margin_linearlayout_work
+dimen margin_top_button_home
 dimen margin_top_imageview_login
 dimen margin_top_linearlayout_login
 dimen mtrl_bottomappbar_fabOffsetEndMode
@@ -928,6 +930,7 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 dimen padding_bottom_textview_info
+dimen padding_horizontal_button_home
 dimen padding_linearlayout_login
 dimen padding_vertical_linearlayout_home
 dimen padding_vertical_linearlayout_work
@@ -935,6 +938,8 @@ dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
+dimen text_size_textview_normal
+dimen text_size_textview_title
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -944,7 +949,6 @@ dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
 dimen widht_RaisedButtonAccent
-dimen widht_RaisedButtonLight
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -1059,9 +1063,12 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_account_circle
 drawable ic_action_add
 drawable ic_alarm
 drawable ic_error_outline
+drawable ic_exit_to_app
+drawable ic_home
 drawable ic_label
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1087,6 +1094,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable otis
 drawable otis_logo
+drawable photo_post_shape
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1127,6 +1135,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnCancelPost
 id btnConcluir
 id btnHerramienta
 id btnMaterial
@@ -1146,6 +1155,7 @@ id container
 id content
 id contentPanel
 id coordinator
+id culminados_button
 id custom
 id customPanel
 id dark
@@ -1159,8 +1169,10 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id editComment
+id editTextObservacion
 id edit_query
-id edtComment
+id emergencia_button
 id end
 id end_padder
 id enterAlways
@@ -1211,6 +1223,9 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nav_home
+id nav_perfil
+id nav_salir
 id navigation_header_container
 id never
 id none
@@ -1225,7 +1240,10 @@ id parent
 id parentPanel
 id parent_matrix
 id password
+id pendientes_button
 id percent
+id photo_post_image_view
+id photos_recycler_view
 id pin
 id progressBarLogin
 id progress_circular
@@ -1290,11 +1308,14 @@ id textViewContacto
 id textViewDescripcion
 id textViewDireccion
 id textViewEdificio
+id textViewEstadoActual
 id textViewFechaInicio
 id textViewFechaLimite
+id textViewFechaTermino
 id textViewNumeroMaquina
 id textViewTelefono
 id textViewTipoMaquina
+id textViewWorkTitle
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1318,6 +1339,7 @@ id up
 id useLogo
 id username
 id view_offset_helper
+id vigentes_button
 id visible
 id wide
 id withText
@@ -1374,11 +1396,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout actionbar_toolbar
-layout activity_complete_work
 layout activity_fragment
-layout activity_home
 layout activity_login
-layout activity_new_post
+layout activity_request
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1393,8 +1413,12 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_complete_work
+layout fragment_home
 layout fragment_info_work
+layout fragment_new_post
 layout fragment_work_list
+layout list_item_post
 layout list_item_work
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
@@ -1417,6 +1441,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu drawer_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
@@ -1482,6 +1507,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string exit_menu
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string firebase_database_url
@@ -1494,6 +1520,7 @@ string hide_bottom_view_on_scroll_behavior
 string hint_comment
 string hint_password
 string hint_username
+string home_menu
 string logo_desc
 string mtrl_chip_close_icon_content_description
 string password_toggle_content_description
@@ -1501,10 +1528,13 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string profile_menu
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string text_button_cancel_post
 string text_button_concluir
+string text_button_culminados
 string text_button_emergencia
 string text_button_herramienta
 string text_button_login
@@ -1529,7 +1559,9 @@ string text_textview_fecha_inicio
 string text_textview_fecha_termino
 string text_textview_forgot_password
 string text_textview_formulario
+string text_textview_imagenes
 string text_textview_info
+string text_textview_nuevo_post
 string text_textview_num_maquina
 string text_textview_observacion
 string text_textview_preventivo
@@ -1546,6 +1578,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style AppTheme
+style AppTheme_NoActionBar
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -1856,6 +1889,10 @@ style TextAppearance_MaterialComponents_Tab
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
+style TextViewNormalBlack
+style TextViewNormalBlue
+style TextViewSubtitle
+style TextViewTitle
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight

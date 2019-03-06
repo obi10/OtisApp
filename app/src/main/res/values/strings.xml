@@ -2,6 +2,10 @@
     <string name="app_name">OtisApp</string>
     <string name="logo_desc">Otis company logo</string>
 
+    <string name="home_menu">HOME</string>
+    <string name="profile_menu">PERFIL</string>
+    <string name="exit_menu">SALIR</string>
+
     <string name="hint_username">username</string>
     <string name="hint_password">password</string>
     <string name="text_button_login">Login</string>
@@ -13,6 +17,7 @@
     <string name="text_button_vigentes">Vigentes</string>
     <string name="text_button_pendientes">Pendientes</string>
     <string name="text_button_emergencia">Emergencia</string>
+    <string name="text_button_culminados">Culminados</string>
 
     <string name="text_textview_bienvenido">Bienvenido Ygnacio!</string>
     <string name="text_textview_trabajos">TRABAJOS</string>
@@ -25,7 +30,7 @@
     <string name="text_button_trabajos_vigentes_e2">CAMBIAR BOTONES - ASCENSOR</string>
     <string name="text_button_trabajos_vigentes_e3">MANTENIMIENTO DE MOTOR - ASCENSOR</string>
 
-    <string name="text_textview_trabajos_vigentes_e1">CAMBIAR PASAMANOS - ESCALERA ELECTRICA</string>
+    <string name="text_textview_trabajos_vigentes_e1">CAMBIAR PASAMANOS - ESCALERA ELECTRICA\ndvsdvd</string>
     <string name="text_textview_info">INFORMACION</string>
     <string name="text_textview_num_maquina">NUM MAQUINA:</string>
     <string name="text_textview_tipo_maquina">TIPO DE MAQUINA:</string>
@@ -46,5 +51,8 @@
     <string name="text_textview_fecha_termino">FECHA DE TERMINO:</string>
     <string name="text_textview_observacion">OBSERVACION:</string>
     <string name="hint_comment">comentario...</string>
-    <string name="text_button_new_post">post</string>
+    <string name="text_button_new_post">add</string>
+    <string name="text_button_cancel_post">cancel</string>
+    <string name="text_textview_imagenes">IMAGENES:</string>
+    <string name="text_textview_nuevo_post">NUEVO POST</string>
 </resources>

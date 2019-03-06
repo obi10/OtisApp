@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.junicode.otisapp.home.activity.HomeActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:text="@string/text_textview_bienvenido" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:theme="@style/TextViewTitle"
+        android:text="@string/text_textview_trabajos" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="@dimen/padding_vertical_linearlayout_home">
+
+            <Button
+                android:id="@+id/vigentes_button"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_button_home"
+                android:paddingHorizontal="@dimen/padding_horizontal_button_home"
+                android:layout_gravity="center"
+                android:text="@string/text_button_vigentes"
+                android:drawableStart="@drawable/ic_label"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                android:theme="@style/RaisedButtonLight"
+                android:background="@drawable/button_shape" />
+            <Button
+                android:id="@+id/pendientes_button"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_button_home"
+                android:layout_marginTop="@dimen/margin_top_button_home"
+                android:paddingHorizontal="@dimen/padding_horizontal_button_home"
+                android:layout_gravity="center"
+                android:text="@string/text_button_pendientes"
+                android:drawableStart="@drawable/ic_error_outline"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                android:theme="@style/RaisedButtonLight"
+                android:background="@drawable/button_shape" />
+            <Button
+                android:id="@+id/emergencia_button"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_button_home"
+                android:layout_marginTop="@dimen/margin_top_button_home"
+                android:paddingHorizontal="@dimen/padding_horizontal_button_home"
+                android:layout_gravity="center"
+                android:text="@string/text_button_emergencia"
+                android:drawableStart="@drawable/ic_alarm"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                android:theme="@style/RaisedButtonLight"
+                android:background="@drawable/button_shape" />
+            <Button
+                android:id="@+id/culminados_button"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="@dimen/margin_horizontal_button_home"
+                android:layout_marginTop="@dimen/margin_top_button_home"
+                android:paddingHorizontal="@dimen/padding_horizontal_button_home"
+                android:layout_gravity="center"
+                android:text="@string/text_button_culminados"
+                android:drawableEnd="@drawable/ic_navigate_next"
+                android:theme="@style/RaisedButtonLight"
+                android:background="@drawable/button_shape" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

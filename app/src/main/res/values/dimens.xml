@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="edittext_size_login">16sp</dimen>
+    <dimen name="edittext_size_login">14sp</dimen>
+
+    <dimen name="text_size_textview_title">15sp</dimen>
+    <dimen name="text_size_textview_normal">12sp</dimen>
+
+    <dimen name="height_RaisedButtonLight">30dp</dimen>
+    <dimen name="widht_RaisedButtonAccent">120dp</dimen>
+    <dimen name="height_RaisedButtonAccent">35dp</dimen>
 
     <dimen name="padding_linearlayout_login">32dp</dimen>
     <dimen name="margin_horizontal_linearlayout_login">48dp</dimen>
@@ -8,18 +15,15 @@
     <dimen name="margin_top_linearlayout_login">50dp</dimen>
     <dimen name="margin_horizontal_button_login">50dp</dimen>
 
-    <dimen name="padding_vertical_linearlayout_home">10dp</dimen>
 
-    <dimen name="widht_RaisedButtonLight">330dp</dimen>
-    <dimen name="height_RaisedButtonLight">40dp</dimen>
+    <dimen name="margin_horizontal_button_home">25dp</dimen>
+    <dimen name="margin_top_button_home">8dp</dimen>
+    <dimen name="padding_horizontal_button_home">10dp</dimen>
+    <dimen name="padding_vertical_linearlayout_home">10dp</dimen>
 
     <dimen name="margin_linearlayout_work">20dp</dimen>
     <dimen name="padding_vertical_linearlayout_work">20dp</dimen>
 
     <dimen name="padding_bottom_textview_info">120dp</dimen>
 
-    <dimen name="widht_RaisedButtonAccent">130dp</dimen>
-    <dimen name="height_RaisedButtonAccent">40dp</dimen>
-
-    <dimen name="height_edittext_observacion">180dp</dimen>
 </resources>
